@@ -22,8 +22,8 @@ class Layout extends Component{
     }
 
     searchHandler = () => {
-        this.setState({loading : true , error : ''})
         if(this.state.input.trim() !== ''){
+            this.setState({loading : true , error : ''})
             getPrice(this.state.input.toUpperCase())
                 .then(res =>{
                     this.input = this.state.input
