@@ -1,0 +1,44 @@
+.layout{
+    margin : auto;
+    margin-bottom : 10px;
+}
+
+.heading{
+    margin-top : 1%;
+    margin-bottom : 3%;
+}
+
+.suggestions{
+    display: block;
+    margin : 2px 0px 10px 0px;
+}
+
+.button{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.output{
+    color : #D1EDE1;
+    background-color: #028C6A;
+    border-radius: 5px;
+    margin : 15px auto;
+    border : 1px solid #ccc; 
+    width : 20%;
+    padding: 5px;
+}
+
+.error{
+    color : red;
+    margin-top: 5px;
+}
+
+@media(max-width : 500px){
+    .output{
+        width : 75%
+    }
+    .heading{
+        margin-top: 10%;
+        margin-bottom : 5%;
+    }
+}
